@@ -1,11 +1,11 @@
 "use strict";
 import * as THREE from 'three'
-import {FBXLoader} from 'three/examples/jsm/loaders/FBXLoader.js'
-import {GLTFLoader} from 'three/examples/jsm/loaders/GLTFLoader.js'
+import {FBXLoader} from '/node_modules/three/examples/jsm/loaders/FBXLoader.js'
+import {GLTFLoader} from '/node_modules/three/examples/jsm/loaders/GLTFLoader.js'
 import * as dat from 'lil-gui'
-import {FontLoader} from 'three/examples/jsm/loaders/FontLoader.js'
-import {TextGeometry} from 'three/examples/jsm/geometries/TextGeometry.js'
-import {PointerLockControls} from 'three/examples/jsm/controls/PointerLockControls.js'
+import {FontLoader} from '/node_modules/three/examples/jsm/loaders/FontLoader.js'
+import {TextGeometry} from '/node_modules/three/examples/jsm/geometries/TextGeometry.js'
+import {PointerLockControls} from '/node_modules/three/examples/jsm/controls/PointerLockControls.js'
 import * as TWEEN from '@tweenjs/tween.js'
 var fence;
 var coords = { x: 5, y: 1, z: 25 };
