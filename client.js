@@ -1,12 +1,12 @@
 "use strict";
-var THREE = require("three");
-var FBXLoader_1 = require("three/examples/jsm/loaders/FBXLoader");
-var GLTFLoader_1 = require("three/examples/jsm/loaders/GLTFLoader");
-var dat = require("lil-gui");
-var FontLoader_1 = require("three/examples/jsm/loaders/FontLoader");
-var TextGeometry_1 = require("three/examples/jsm/geometries/TextGeometry");
-var PointerLockControls_js_1 = require("three/examples/jsm/controls/PointerLockControls.js");
-var TWEEN = require("@tweenjs/tween.js");
+import * as THREE from 'three'
+import {FBXLoader} from 'three/examples/jsm/loaders/FBXLoader.js'
+import {GLTFLoader} from 'three/examples/jsm/loaders/GLTFLoader.js'
+import * as dat from 'lil-gui'
+import {FontLoader} from 'three/examples/jsm/loaders/FontLoader.js'
+import {TextGeometry} from 'three/examples/jsm/geometries/TextGeometry.js'
+import {PointerLockControls} from 'three/examples/jsm/controls/PointerLockControls.js'
+import * as TWEEN from '@tweenjs/tween.js'
 var fence;
 var coords = { x: 5, y: 1, z: 25 };
 var coords2 = { x: 19, y: 1, z: 19 };
