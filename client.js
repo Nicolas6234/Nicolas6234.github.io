@@ -2,7 +2,7 @@
 import * as THREE from 'three'
 import {FBXLoader} from '/node_modules/three/examples/jsm/loaders/FBXLoader.js'
 import {GLTFLoader} from '/node_modules/three/examples/jsm/loaders/GLTFLoader.js'
-import * as dat from '/node_modules/lil-gui'
+import GUI from '/node_modules/lil-gui/dist/lil-gui.esm.js'
 import {FontLoader} from '/node_modules/three/examples/jsm/loaders/FontLoader.js'
 import {TextGeometry} from '/node_modules/three/examples/jsm/geometries/TextGeometry.js'
 import {PointerLockControls} from '/node_modules/three/examples/jsm/controls/PointerLockControls.js'
@@ -323,7 +323,7 @@ function init() {
         console.log("done");
     }).chain(tween));
     tween.start();
-    var gui = new dat.GUI();
+    var gui = new GUI();
     var parrotFolder = gui.addFolder('Parrot');
     obj = { x: 0, y: 1, z: 0, scale: 0.01 };
     parrotFolder.add(obj, 'scale', 0.01, 1, 0.01).listen().onChange(function () {
