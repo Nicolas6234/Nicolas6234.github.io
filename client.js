@@ -30,7 +30,7 @@ var model4Ready = false;
 var archer = new THREE.Group();
 var loadedScene = 0;
 var parrot = new THREE.Group();
-var ftl = new FontLoader_1.FontLoader();
+var ftl = new FontLoader();
 var mixerTab = [];
 var possibleDirections = [true, true, true, true];
 var lookingDirection = new THREE.Vector3(0, 0, 0);
@@ -54,7 +54,7 @@ function init() {
     renderer.setClearColor('skyblue');
     document.body.appendChild(renderer.domElement);
     //cameraControls = new OrbitControls(camera, renderer.domElement)
-    cameraControls = new PointerLockControls_js_1.PointerLockControls(camera, document.body);
+    cameraControls = new PointerLockControls(camera, document.body);
     // slow down camera movement
     cameraControls.addEventListener('unlock', function () {
         camera.rotation.y = 0;
@@ -99,7 +99,7 @@ function init() {
     light.position.set(20, 20, 20);
     scene.add(light);
     createScore();
-    var fl = new FBXLoader_1.FBXLoader();
+    var fl = new FBXLoader();
     var _loop_1 = function (i) {
         fl.load('models/espectador.fbx', function (object) {
             mixerTab.push(new THREE.AnimationMixer(object));
@@ -132,7 +132,7 @@ function init() {
     var animationActions = [];
     var activeAction;
     var lastAction;
-    var gl = new GLTFLoader_1.GLTFLoader();
+    var gl = new GLTFLoader();
     fl.load('models/archerV6.fbx', function (object) {
         archer = object;
         mixer2 = new THREE.AnimationMixer(archer);
@@ -406,7 +406,7 @@ function getDistWithAngle(angle) {
 }
 function createScore() {
     ftl.load('fonts/helvetiker_bold.typeface.json', function (font) {
-        var geo = new TextGeometry_1.TextGeometry(score.toString(), {
+        var geo = new TextGeometry(score.toString(), {
             font: font,
             size: 5,
             height: 2,
