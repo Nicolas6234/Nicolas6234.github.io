@@ -6,7 +6,7 @@ import * as dat from '/node_modules/lil-gui'
 import {FontLoader} from '/node_modules/three/examples/jsm/loaders/FontLoader.js'
 import {TextGeometry} from '/node_modules/three/examples/jsm/geometries/TextGeometry.js'
 import {PointerLockControls} from '/node_modules/three/examples/jsm/controls/PointerLockControls.js'
-import * as TWEEN from '/node_modules/@tweenjs/tween.js'
+import { TWEEN } from 'https://unpkg.com/three@0.139.0/examples/jsm/libs/tween.module.min.js';
 var fence;
 var coords = { x: 5, y: 1, z: 25 };
 var coords2 = { x: 19, y: 1, z: 19 };
