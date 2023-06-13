@@ -1,5 +1,4 @@
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 var THREE = require("three");
 var FBXLoader_1 = require("three/examples/jsm/loaders/FBXLoader");
 var GLTFLoader_1 = require("three/examples/jsm/loaders/GLTFLoader");
