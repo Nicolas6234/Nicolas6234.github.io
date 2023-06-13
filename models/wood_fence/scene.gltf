@@ -1,0 +1,355 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 168,
+      "max": [
+        30.76873207092285,
+        7.374853134155273,
+        8.307589530944824
+      ],
+      "min": [
+        -11.287336349487305,
+        5.388707160949707,
+        -4.665507793426514
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 2016,
+      "componentType": 5126,
+      "count": 168,
+      "max": [
+        0.9981504678726196,
+        0.9994669556617737,
+        0.9833558201789856
+      ],
+      "min": [
+        -0.9989306926727295,
+        -0.9996511340141296,
+        -0.9988139271736145
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 168,
+      "max": [
+        0.875,
+        1.0
+      ],
+      "min": [
+        0.125,
+        0.0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 264,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 4032,
+      "componentType": 5126,
+      "count": 168,
+      "max": [
+        10.74815845489502,
+        6.969196796417236,
+        8.303603172302246
+      ],
+      "min": [
+        -31.20479393005371,
+        5.362477779388428,
+        -4.641809940338135
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 6048,
+      "componentType": 5126,
+      "count": 168,
+      "max": [
+        0.9975624680519104,
+        1.0,
+        0.9809122681617737
+      ],
+      "min": [
+        -0.9975624680519104,
+        -1.0,
+        -0.9998274445533752
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 1344,
+      "componentType": 5126,
+      "count": 168,
+      "max": [
+        0.875,
+        1.0
+      ],
+      "min": [
+        0.125,
+        0.0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 1056,
+      "componentType": 5125,
+      "count": 264,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 8064,
+      "componentType": 5126,
+      "count": 386,
+      "max": [
+        30.196918487548828,
+        6.670310020446777,
+        5.602121829986572
+      ],
+      "min": [
+        -30.536649703979492,
+        5.587494850158691,
+        -2.457257032394409
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 12696,
+      "componentType": 5126,
+      "count": 386,
+      "max": [
+        0.08819802850484848,
+        0.9999774694442749,
+        0.999987006187439
+      ],
+      "min": [
+        -0.10420113801956177,
+        -0.9999774694442749,
+        -0.9999843835830688
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 2688,
+      "componentType": 5126,
+      "count": 386,
+      "max": [
+        0.875,
+        0.75
+      ],
+      "min": [
+        0.125,
+        0.0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 2112,
+      "componentType": 5125,
+      "count": 624,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "The Elliseran Modeller (https://sketchfab.com/kenlong)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/cartoon-wood-fence-e21aad085cba4503b92f73dd81df4b33",
+      "title": "Cartoon Wood Fence"
+    },
+    "generator": "Sketchfab-12.68.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 4608,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 5776,
+      "byteOffset": 4608,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 17328,
+      "byteOffset": 10384,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 27712,
+      "uri": "scene.bin"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "Brown1",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.719148,
+          0.312196,
+          0.095178,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.8917131614666003
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "BrownDark",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.638271,
+          0.215485,
+          0.025329,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.9133974596215562
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "Material",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.8,
+          0.396065,
+          0.024259,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.7880318375580224
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Object_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Object_1",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Object_2",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 9,
+            "POSITION": 8,
+            "TEXCOORD_0": 10
+          },
+          "indices": 11,
+          "material": 2,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2,
+        3,
+        4
+      ],
+      "name": "Cartoon Wood Fence.obj.cleaner.materialmerger.gles"
+    },
+    {
+      "mesh": 0,
+      "name": "Object_2"
+    },
+    {
+      "mesh": 1,
+      "name": "Object_3"
+    },
+    {
+      "mesh": 2,
+      "name": "Object_4"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}
